@@ -1,5 +1,10 @@
 body {
   margin: 0px;
+  background-image: url(https://cdn.wallpapersafari.com/35/81/nLZTAv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  color: white;
 }
 
 .title {
@@ -7,17 +12,21 @@ body {
 }
 
 .players {
-  display: grid;
-  padding: 40px;
+  display: flex;
+  justify-content: space-between;
   grid-template-columns: 1fr 2fr;
-
-  height: 80px;
 }
 
 .mainbox {
   display: grid;
-  padding: 40px;
-  grid-template-columns: 1fr 2fr 3fr;
-  height: 80px;
-   
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  position: 
+}
+.intirebox {
+  border: 1px solid;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-color: red;
 }
