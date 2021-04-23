@@ -6,10 +6,18 @@ body {
   text-align: center;
 }
 
-#main {
-  text-align: center;
+.players {
+  display: grid;
+  padding: 40px;
+  grid-template-columns: 1fr 2fr;
 
+  height: 80px;
+}
+
+.mainbox {
   display: grid;
   padding: 40px;
   grid-template-columns: 1fr 2fr 3fr;
+  height: 80px;
+   
 }
