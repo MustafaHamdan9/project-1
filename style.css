@@ -21,12 +21,27 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  position: 
+  top: 200px;
+
+  height: 300;
+  width: 300;
 }
 .intirebox {
   border: 1px solid;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  background-color: red;
+
+  background-color: blue;
+}
+
+.Result {
+  margin-top: 500;
+  border: 1px solid;
+  color: white;
+}
+button {
+  margin-top: 500;
+
+  color: blue;
 }
