@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
-  color: white;
 }
 
 .title {
@@ -25,9 +24,7 @@ body {
 }
 
 .mainbox {
-  height: 400;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0% auto;
 
   display: inline-grid;
   grid-template-columns: auto auto auto;
